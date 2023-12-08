@@ -38,7 +38,7 @@ import { useEffect, useState } from "react";
         
     <h1>Quiz App</h1> 
     <hr></hr> 
-<h2 dangerouslySetInnerHTML={{__html:data?.results && data?.results[0]?.question}}></h2>  
+<h2 dangerouslySetInnerHTML={{__html:data?.results && data?.results[index]?.question}}></h2>  
     <ul>
        {answers.map((el) => {
         return (
@@ -54,6 +54,7 @@ import { useEffect, useState } from "react";
               if(userAnswer === "") {
                 console.log(el === correctAnswer);
                 setUserAnswer(el)
+                
               }
 
 
@@ -61,8 +62,18 @@ import { useEffect, useState } from "react";
         )
        })}
     </ul>
-    <button>Next</button>
-    <div className="numb">1/10 questions</div>
+    <button onClick={() => {
+
+      if(userAnswer !== "") {
+        setIndex(index +1)
+        console.log("hello");
+        setAnswers(data.results[index +1].incorrect_answers.concat([data.results[index +1].correct_answer]).sort(() => Math.random() - 0.5))
+        setCorrectAnswer(data.results[index +1].correct_answer)
+        setUserAnswer('')
+
+      }
+    }}  >Next</button>
+    <div className="numb">{index +1 }/10 questions</div>
 </div> : <>Loading</>   }
     
     </>    
