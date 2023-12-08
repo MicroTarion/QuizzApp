@@ -1,0 +1,113 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science & Nature",
+      "question": "The medical condition osteoporosis affects which part of the body?",
+      "correct_answer": "Bones",
+      "incorrect_answers": [
+        "Skin",
+        "Brain",
+        "Heart"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The Canadian $1 coin is colloquially known as a what?",
+      "correct_answer": "Loonie",
+      "incorrect_answers": [
+        "Boolie",
+        "Foolie",
+        "Moodie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "What was Rage Against the Machine's debut album?",
+      "correct_answer": "Rage Against the Machine",
+      "incorrect_answers": [
+        "Evil Empire",
+        "Bombtrack",
+        "The Battle Of Los Angeles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Albrecht Dürer's birthplace and place of death were in...",
+      "correct_answer": "Nürnberg",
+      "incorrect_answers": [
+        "Augsburg",
+        "Bamberg",
+        "Berlin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of NASA’s most famous space telescope?",
+      "correct_answer": "Hubble Space Telescope",
+      "incorrect_answers": [
+        "Big Eye",
+        "Death Star",
+        "Millenium Falcon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+      "correct_answer": "<marquee></marquee>",
+      "incorrect_answers": [
+        "<scroll></scroll>",
+        "<move></move>",
+        "<slide></slide>"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?",
+      "correct_answer": "Gorilla",
+      "incorrect_answers": [
+        "Tiger",
+        "Panda",
+        "Crocodile"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science & Nature",
+      "question": "How many chromosomes are in your body cells?",
+      "correct_answer": "23",
+      "incorrect_answers": [
+        "21",
+        "22",
+        "24"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which famous world leader is famed for the saying, \"Let them eat cake\", yet is rumored that he/she never said it at all?",
+      "correct_answer": "Marie Antoinette",
+      "incorrect_answers": [
+        "Czar Nicholas II",
+        "Elizabeth I",
+        "Henry VIII"
+      ]
+    }
+  ]
+}

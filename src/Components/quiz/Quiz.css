@@ -1,0 +1,41 @@
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 40px 50px;
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container ul li {
+    display: flex ;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 2px solid #353232;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container button{
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background: blue;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.numb{
+    margin: auto;
+    font-size: 18px;
+}
