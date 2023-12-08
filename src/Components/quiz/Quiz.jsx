@@ -1,13 +1,5 @@
 import { Box } from "@chakra-ui/react";
 import "./Quiz.css"
-<<<<<<< HEAD
-
-const Quiz = () => {
-    return (
-        <>
-        <Box className="quiz-container">
-        <div className="container">
-=======
 import { useEffect, useState } from "react";
 
   const Quiz = ()=>{
@@ -32,7 +24,6 @@ import { useEffect, useState } from "react";
   return(
     <>
     <div className="container">
->>>>>>> Quizz
                 <h1>Quiz App</h1> 
                 <hr></hr> 
                 <h2>notre question</h2>
@@ -45,19 +36,11 @@ import { useEffect, useState } from "react";
                 
                 <div className="numb">1/10 questions</div>
             </div>
-<<<<<<< HEAD
-        </Box></>
-        
-    );
-  };
-  
-  export default Quiz;
-=======
         <div>
             <form action="">
-            <label htmlFor="movieSearch"></label>
+            <label htmlFor=""></label>
             <input
-                name="movieSearch"
+                name=""
                 type="submit"
                 value="Quizz Generation"
             />
@@ -67,4 +50,3 @@ import { useEffect, useState } from "react";
     )
 };
 export default Quiz
->>>>>>> Quizz
