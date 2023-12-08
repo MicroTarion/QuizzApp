@@ -1,9 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Quiz from './components/quiz/Quiz'
-import About from './components/About/About'
-
+/* import Quiz from './components/quiz/Quiz.jsx'
 import './App.css'
 
 
@@ -18,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App */

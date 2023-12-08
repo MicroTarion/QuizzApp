@@ -1,4 +1,3 @@
-import { Box } from "@chakra-ui/react";
 import "./Quiz.css"
 import { useEffect, useState } from "react";
 

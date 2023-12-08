@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navigation from './components/Navigation/Navigation';
-import Quiz from './components/Quiz/Quiz';
+import Quiz from './components/quiz/Quiz.jsx'
 import About from './components/About/About';
 
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <Navigation/>,
     errorElement: <>Erreur WithNavbar</>,
   },
-  {
+/*   {
     path: "/quiz",
     element: <Quiz/>,
-  },
+  }, */
   {
     path: "/leaderboard",
     element: <>page du leaderboard</>,
@@ -51,9 +51,9 @@ const router = createBrowserRouter([
 
 
   ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
+    // <React.StrictMode>
       <RouterProvider router={router} />
-    </React.StrictMode>,
+    /* </React.StrictMode>, */
   )
 
 
