@@ -18,6 +18,7 @@ const QuizzGeneration = async (event) => {
             <form action="">
             <label htmlFor="movieSearch"></label>
             <input
+                name="movieSearch"
                 type="submit"
                 value="Quizz Generation"
                 onClick={QuizzGeneration}
