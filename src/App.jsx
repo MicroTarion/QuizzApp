@@ -1,6 +1,4 @@
 import { useState } from 'react'
-
-import Quizz from './components/Quizz/Quizz'
 import Quiz from './components/quiz/Quiz'
 import './App.css'
 
@@ -12,7 +10,6 @@ function App() {
 
       <div>
       <Quiz/>
-      <Quizz/>
         </div>
   </>
   )
