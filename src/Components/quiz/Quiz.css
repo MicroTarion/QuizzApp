@@ -39,3 +39,11 @@
     margin: auto;
     font-size: 18px;
 }
+
+.good {
+    background-color: green;
+}
+
+.bad {
+    background-color: red;
+}
