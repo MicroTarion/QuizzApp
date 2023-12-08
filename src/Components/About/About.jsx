@@ -1,18 +1,18 @@
-function Cadre () {
+function About () {
     return(
         <div         style={{
-          width: "400px",
+          width: "800px",
           padding: "30px",
           margin: "20px",
           backgroundColor: "white",
           borderRadius: "20px",
           color: "black",
-          float:"right" ,
+          
         }} >
-            <p> testos
+            <p> Page à propos
             </p>
         </div>
     
     )
 }
-export default Cadre
+export default About

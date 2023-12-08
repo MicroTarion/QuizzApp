@@ -4,6 +4,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navigation from './components/Navigation/Navigation';
 import Quiz from './components/Quiz/Quiz';
+import About from './components/About/About';
 
 
 const router = createBrowserRouter([
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <></>,
+    element: <About/>,
   },
   {
     path: "/withNavbar/",
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
       {
         path: "about",
         // element: <about/>,
-        element: <>Page about</>,
+        element: <About/>,
       }
     ]
   }
