@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Quiz from './components/quiz/Quiz'
+import Cadre from './components/propos/propos'
 import './App.css'
 
 
@@ -10,6 +11,7 @@ function App() {
 
       <div>
       <Quiz/>
+      <Cadre/>
         </div>
   </>
   )
