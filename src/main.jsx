@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Navigation from "./components/Navigation/Navigation";
-import Quiz from "./components/quiz/Quiz";
-import About from "./components/About/About";
+import Navigation from "./Components/Navigation/Navigation";
+import Quiz from "./Components/quiz/Quiz";
+import About from "./Components/About/About";
 
 const router = createBrowserRouter([
   {
