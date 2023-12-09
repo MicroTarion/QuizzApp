@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
-import Quiz from "./components/quiz/Quiz.jsx";
+import Quiz from "./components/quiz/Quiz";
 import About from "./components/About/About";
 
 const router = createBrowserRouter([
