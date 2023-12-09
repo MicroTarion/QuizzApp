@@ -1,6 +1,5 @@
 import { Link as RouterLink, Outlet } from "react-router-dom";
 import { ChakraProvider, Box, Flex, Link, extendTheme } from "@chakra-ui/react";
-import "../quiz/Quiz.css";
 
 const theme = extendTheme({
   styles: {

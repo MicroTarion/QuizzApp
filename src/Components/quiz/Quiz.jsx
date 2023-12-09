@@ -1,4 +1,4 @@
-import "./Quiz.css";
+import styles from "./Quiz.module.css";
 import { useEffect, useState } from "react";
 
 const Quiz = () => {
@@ -41,7 +41,7 @@ const Quiz = () => {
     <>
       {" "}
       {data?.results?.length > 0 ? (
-        <div className="container">
+        <div className={styles.container}>
           <h1>Quiz App</h1>
           <hr></hr>
           <h2
@@ -94,7 +94,7 @@ const Quiz = () => {
           >
             Next
           </button>
-          <div className="numb">{index + 1}/10 questions</div>
+          <div className={styles.numb}>{index + 1}/10 questions</div>
         </div>
       ) : (
         <>Loading</>
